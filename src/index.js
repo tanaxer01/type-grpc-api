@@ -10,8 +10,8 @@ app.use(express.urlencoded({ extended: false }));
 app.use(router);
 
 app.listen(3000, () => {
-    // croncitoUF.start();
-    // croncitoDolar.start();
+    croncitoUF.start();
+    croncitoDolar.start();
     console.log("Server listening on port 3000");
 });
 
